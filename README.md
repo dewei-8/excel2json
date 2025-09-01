@@ -249,8 +249,8 @@ npm test
 
 ## 📞 支持
 
-- 🐛 **错误报告**: [GitHub Issues](https://github.com/yourusername/excel2json/issues)
-- 💡 **功能请求**: [GitHub Discussions](https://github.com/yourusername/excel2json/discussions)
+- 🐛 **错误报告**: [GitHub Issues](https://github.com/outlaw-sunxin/excel2json/issues)
+- 💡 **功能请求**: [GitHub Discussions](https://github.com/outlaw-sunxin/excel2json/discussions)
 - 📧 **邮箱**: your.email@example.com
 
 ## 🙏 致谢

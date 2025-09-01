@@ -6,6 +6,7 @@
   "bin": {
     "excel2json": "excel-to-json.js"
   },
+  "preferGlobal": true,
   "scripts": {
     "start": "node excel-to-json.js",
     "test": "node excel-to-json.js",
@@ -27,17 +28,17 @@
     "command-line"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "your.email@example.com"
+    "name": "sunxin",
+    "email": "1534584879@qq.com"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/excel2json.git"
+    "url": "git+https://github.com/outlaw-sunxin/excel2json.git"
   },
-  "homepage": "https://github.com/yourusername/excel2json#readme",
+  "homepage": "https://github.com/outlaw-sunxin/excel2json#readme",
   "bugs": {
-    "url": "https://github.com/yourusername/excel2json/issues"
+    "url": "https://github.com/outlaw-sunxin/excel2json/issues"
   },
   "engines": {
     "node": ">=12.0.0"

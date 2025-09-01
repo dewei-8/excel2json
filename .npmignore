@@ -1,0 +1,37 @@
+# 依赖目录
+node_modules/
+
+# 示例文件
+example.js
+*.xlsx
+*.xls
+
+# 开发相关
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# 日志文件
+*.log
+npm-debug.log*
+
+# 临时文件
+*.tmp
+*.temp
+
+# 测试文件
+test/
+tests/
+__tests__/
+
+# 文档源文件
+docs/
+*.md
+!README.md
+
+# 配置文件
+.eslintrc*
+.prettierrc*
+tsconfig.json
+webpack.config.js

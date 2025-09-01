@@ -1,0 +1,50 @@
+{
+  "name": "excel2json",
+  "version": "1.0.0",
+  "description": "A Node.js tool to convert Excel files (.xlsx/.xls) to JSON format with first row as keys",
+  "main": "excel-to-json.js",
+  "bin": {
+    "excel-to-json": "./excel-to-json.js"
+  },
+  "scripts": {
+    "start": "node excel-to-json.js",
+    "test": "node excel-to-json.js",
+    "prepublishOnly": "echo 'Ready to publish!'"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.1",
+    "google-translate-api-x": "^10.7.2",
+    "xlsx": "^0.18.5"
+  },
+  "keywords": [
+    "excel",
+    "json",
+    "converter",
+    "xlsx",
+    "xls",
+    "spreadsheet",
+    "cli",
+    "command-line"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/excel2json.git"
+  },
+  "homepage": "https://github.com/yourusername/excel2json#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/excel2json/issues"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "excel-to-json.js",
+    "README.md",
+    "LICENSE"
+  ]
+}

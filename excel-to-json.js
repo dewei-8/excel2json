@@ -133,34 +133,40 @@ async function excelToJson(excelFilePath, outputPath = null, translateHeaders = 
 async function main() {
     const args = process.argv.slice(2);
     
-    if (args.length === 0) {
+    // 检查帮助参数
+    if (args.length === 0 || args.includes('--help') || args.includes('-h')) {
+        console.log('Excel2JSON - Excel文件转JSON工具');
         console.log('使用方法:');
-        console.log('  node excel-to-json.js <Excel文件路径> [输出JSON文件路径] [--translate] [--engine=引擎名]');
+        console.log('  excel2json <Excel文件路径> [输出JSON文件路径] [--translate] [--engine=引擎名]');
+        console.log('  excel2json --help 或 excel2json -h 显示此帮助信息');
         console.log('');
         console.log('示例:');
-        console.log('  node excel-to-json.js data.xlsx');
-        console.log('  node excel-to-json.js data.xlsx output.json');
-        console.log('  node excel-to-json.js data.xlsx output.json --translate');
-        console.log('  node excel-to-json.js data.xlsx output.json --translate --engine=vitalets');
-        console.log('  node excel-to-json.js data.xlsx output.json --translate --engine=google-x');
+        console.log('  excel2json data.xlsx');
+        console.log('  excel2json data.xlsx output.json');
+        console.log('  excel2json data.xlsx output.json --translate');
+        console.log('  excel2json data.xlsx output.json --translate --engine=vitalets');
+        console.log('  excel2json data.xlsx output.json --translate --engine=google-x');
         console.log('');
         console.log('支持的翻译引擎:');
         console.log('  vitalets  - @vitalets/google-translate-api (默认)');
         console.log('  google-x  - google-translate-api-x 包');
         console.log('');
-        console.log('当前目录中的Excel文件:');
         
-        // 列出当前目录中的Excel文件
-        const files = fs.readdirSync('.');
-        const excelFiles = files.filter(file => 
-            file.toLowerCase().endsWith('.xlsx') || 
-            file.toLowerCase().endsWith('.xls')
-        );
-        
-        if (excelFiles.length > 0) {
-            excelFiles.forEach(file => console.log(`  - ${file}`));
-        } else {
-            console.log('  未找到Excel文件');
+        if (args.length === 0) {
+            console.log('当前目录中的Excel文件:');
+            
+            // 列出当前目录中的Excel文件
+            const files = fs.readdirSync('.');
+            const excelFiles = files.filter(file => 
+                file.toLowerCase().endsWith('.xlsx') || 
+                file.toLowerCase().endsWith('.xls')
+            );
+            
+            if (excelFiles.length > 0) {
+                excelFiles.forEach(file => console.log(`  - ${file}`));
+            } else {
+                console.log('  未找到Excel文件');
+            }
         }
         
         return;

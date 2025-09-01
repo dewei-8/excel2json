@@ -4,7 +4,7 @@
   "description": "A Node.js tool to convert Excel files (.xlsx/.xls) to JSON format with first row as keys",
   "main": "excel-to-json.js",
   "bin": {
-    "excel-to-json": "./excel-to-json.js"
+    "excel2json": "excel-to-json.js"
   },
   "scripts": {
     "start": "node excel-to-json.js",
@@ -33,7 +33,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/excel2json.git"
+    "url": "git+https://github.com/yourusername/excel2json.git"
   },
   "homepage": "https://github.com/yourusername/excel2json#readme",
   "bugs": {

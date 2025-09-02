@@ -1,5 +1,5 @@
 {
-  "name": "@outlaw-sunxin/excel2json",
+  "name": "@dewei/excel2json",
   "version": "1.0.0",
   "description": "A Node.js tool to convert Excel files (.xlsx/.xls) to JSON format with first row as keys",
   "main": "excel-to-json.js",

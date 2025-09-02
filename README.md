@@ -220,8 +220,8 @@ console.log(`Valid records: ${validRecords.length}/${data.length}`);
 
 ### 设置
 ```bash
-git clone https://github.com/yourusername/aoiTypeFormat.git
-cd aoiTypeFormat
+git clone https://github.com/outlaw-sunxin/excel2json.git
+cd excel2json
 npm install
 ```
 
@@ -251,7 +251,7 @@ npm test
 
 - 🐛 **错误报告**: [GitHub Issues](https://github.com/outlaw-sunxin/excel2json/issues)
 - 💡 **功能请求**: [GitHub Discussions](https://github.com/outlaw-sunxin/excel2json/discussions)
-- 📧 **邮箱**: your.email@example.com
+- 📧 **邮箱**: 1534584879@qq.com
 
 ## 🙏 致谢
 

@@ -137,15 +137,15 @@ async function main() {
     if (args.length === 0 || args.includes('--help') || args.includes('-h')) {
         console.log('Excel2JSON - Excel文件转JSON工具');
         console.log('使用方法:');
-        console.log('  excel2json <Excel文件路径> [输出JSON文件路径] [--translate] [--engine=引擎名]');
-        console.log('  excel2json --help 或 excel2json -h 显示此帮助信息');
+        console.log('  @dewei/excel2json <Excel文件路径> [输出JSON文件路径] [--translate] [--engine=引擎名]');
+        console.log('  @dewei/excel2json --help 或 @dewei/excel2json -h 显示此帮助信息');
         console.log('');
         console.log('示例:');
-        console.log('  excel2json data.xlsx');
-        console.log('  excel2json data.xlsx output.json');
-        console.log('  excel2json data.xlsx output.json --translate');
-        console.log('  excel2json data.xlsx output.json --translate --engine=vitalets');
-        console.log('  excel2json data.xlsx output.json --translate --engine=google-x');
+        console.log('  @dewei/excel2json data.xlsx');
+        console.log('  @dewei/excel2json data.xlsx output.json');
+        console.log('  @dewei/excel2json data.xlsx output.json --translate');
+        console.log('  @dewei/excel2json data.xlsx output.json --translate --engine=vitalets');
+        console.log('  @dewei/excel2json data.xlsx output.json --translate --engine=google-x');
         console.log('');
         console.log('支持的翻译引擎:');
         console.log('  vitalets  - @vitalets/google-translate-api (默认)');

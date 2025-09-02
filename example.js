@@ -1,7 +1,7 @@
 /**
  * Excel to JSON Converter - Usage Examples
  * 
- * This file demonstrates various ways to use the excel2json
+ * This file demonstrates various ways to use the @dewei/excel2json
  * both as a library and as a command-line tool.
  */
 
@@ -52,7 +52,7 @@ console.log('}\n');
 // Example 5: Command line usage
 console.log('💻 Example 5: Command line usage');
 console.log('# Install globally:');
-console.log('npm install -g excel2json\n');
+console.log('npm install -g @dewei/excel2json\n');
 console.log('# Use as CLI tool:');
 console.log('excel-to-json data.xlsx');
 console.log('excel-to-json data.xlsx output.json\n');

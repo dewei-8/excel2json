@@ -1,6 +1,6 @@
 # Excel 转 JSON 转换器
 
-[![npm version](https://badge.fury.io/js/excel2json.svg)](https://badge.fury.io/js/excel2json)
+[![npm version](https://badge.fury.io/js/@dewei/excel2json.svg)](https://badge.fury.io/js/@dewei/excel2json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 一个强大的 Node.js 命令行工具和库，用于将 Excel 文件（.xlsx/.xls）转换为 JSON 格式。非常适合数据处理、API 开发和数据迁移任务。
@@ -22,17 +22,17 @@
 ### 快速开始（无需安装）
 ```bash
 # 直接运行，无需安装（推荐）
-npx excel2json <path-to-excel-file>
+npx @dewei/excel2json <path-to-excel-file>
 ```
 
 ### 全局安装（CLI 工具）
 ```bash
-npm install -g excel2json
+npm install -g @dewei/excel2json
 ```
 
 ### 本地安装（库）
 ```bash
-npm install excel2json
+npm install @dewei/excel2json
 ```
 
 ## 🚀 使用方法
@@ -220,7 +220,7 @@ console.log(`Valid records: ${validRecords.length}/${data.length}`);
 
 ### 设置
 ```bash
-git clone https://github.com/outlaw-sunxin/excel2json.git
+git clone https://github.com/dewei-8/excel2json.git
 cd excel2json
 npm install
 ```
@@ -249,8 +249,8 @@ npm test
 
 ## 📞 支持
 
-- 🐛 **错误报告**: [GitHub Issues](https://github.com/outlaw-sunxin/excel2json/issues)
-- 💡 **功能请求**: [GitHub Discussions](https://github.com/outlaw-sunxin/excel2json/discussions)
+- 🐛 **错误报告**: [GitHub Issues](https://github.com/dewei-8/excel2json/issues)
+- 💡 **功能请求**: [GitHub Discussions](https://github.com/dewei-8/excel2json/discussions)
 - 📧 **邮箱**: 1534584879@qq.com
 
 ## 🙏 致谢

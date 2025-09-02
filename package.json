@@ -34,11 +34,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/outlaw-sunxin/excel2json.git"
+    "url": "git+https://github.com/dewei-8/excel2json.git"
   },
-  "homepage": "https://github.com/outlaw-sunxin/excel2json#readme",
+  "homepage": "https://github.com/dewei-8/excel2json#readme",
   "bugs": {
-    "url": "https://github.com/outlaw-sunxin/excel2json/issues"
+    "url": "https://github.com/dewei-8/excel2json/issues"
   },
   "engines": {
     "node": ">=12.0.0"
